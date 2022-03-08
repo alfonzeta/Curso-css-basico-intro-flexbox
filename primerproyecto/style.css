@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+
+body {
+  background-color: #ccc;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1, 6em;
+  margin: 0;
+}
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #4b0e3d;
+  color: #f64c72;
+}
+
+nav {
+  background-color: #6d255c;
+  color: #fff;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  color: #dab5cf;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #f64c72;
+}
+#presentacion {
+  background-image: url("Pictures/galaxy1.jpg");
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#presentacion h2 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.5em;
+}
+main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+aside {
+  float: right;
+  width: 30%;
+  background-color: #4b0e3d;
+  color: #fff;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #330328;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  main,
+  aside {
+    width: 100%;
+    float: none;
+  }
+}
