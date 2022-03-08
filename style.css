@@ -1,1 +1,16 @@
-h1{color: rgb(54, 42, 165);}
+body{
+    background-color: beige;
+    font:normal 20px Verdana, Geneva, sans-serif;
+}
+h1{
+    color: green;
+}
+p{
+    background-color:#0802fb;
+    color:#fff;
+}
+
+h1:hover{
+    background-color:#fff;
+    color:#0802fb;
+}
